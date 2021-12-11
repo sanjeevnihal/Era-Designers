@@ -1,0 +1,36 @@
+body{
+  margin: 2%;
+}
+
+#Main-Container{
+  margin: 3%;
+}
+.project-image{
+  position: relative;
+}
+.project-image img{
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+
+.right-container h1, h3, p{
+  margin: 5% 0;
+}
+.arch-logo{
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.arch-logo img{
+  width: 50%;
+}
+
+.developer-logo{
+  display: inline-block;
+}
+
+.developer-logo img{
+  width: 50%;
+}
