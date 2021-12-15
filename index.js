@@ -1,6 +1,6 @@
 
 
-$(".top-container").owlCarousel({
+$(".carousel").owlCarousel({
 
 margin: 0,
 loop: true,

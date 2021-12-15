@@ -6,15 +6,19 @@ body{
   margin: 3%;
 }
 
+.project{
+  display: flex;
+}
+
 .project-image{
   position: relative;
 }
 .project-image img{
-  width: 50%;
+  width: 50% !important;
   position: absolute;
   right: 0;
+  margin-right: 3%;
 }
-
 
 .main-text{
   margin: 6% 0;
