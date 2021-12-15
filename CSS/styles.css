@@ -54,3 +54,28 @@ body{
   color: black;
   display: inline-block;
 }
+
+
+.card-body{
+  color: black;
+  padding: 5% 3% 3% 3%;
+
+
+}
+
+.card{
+  background-color: #D3D3D3;
+  margin-left: 5rem;
+}
+
+.card-text{
+  padding: 10% 0% 30% 0%;
+}
+
+.card-img-top{
+  height: 30%
+}
+
+.card-title{
+  font-weight: bolder;
+}
