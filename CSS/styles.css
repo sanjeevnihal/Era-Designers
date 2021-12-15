@@ -8,6 +8,7 @@ body{
 
 .project{
   display: flex;
+  cursor: pointer;
 }
 
 .project-image{
