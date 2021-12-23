@@ -1,4 +1,7 @@
 
+// var nextIcon = '<img src="Images\arrow-right-circle.svg" alt="swipe-right">';
+// var prevIcon = '<img src="Images\arrow-left-circle.svg" alt="swipe-left">';
+
 
 $(".carousel").owlCarousel({
 
@@ -7,6 +10,11 @@ loop: true,
 // autoplay: true,
 // autoplayTimeout: 2000,
 // autoplayHoverPause: true,
+// nav: true;
+// navText: [
+//   prevIcon,
+//   nextIcon
+// ],
 
 responsive: {
 
