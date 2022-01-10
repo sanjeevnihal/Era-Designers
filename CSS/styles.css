@@ -1,82 +1,291 @@
-body{
+body {
   margin: 2%;
 }
 
-.top-container{
+.top-container {
   margin: 3%;
 }
 
-.project{
+.project {
   display: flex;
   cursor: pointer;
 }
 
-.project-image{
+.project-image {
   position: relative;
 }
-.project-image img{
+
+.project-image img {
   width: 50% !important;
   position: absolute;
   right: 0;
   margin-right: 3%;
 }
 
-.main-text{
+.main-text {
   margin: 6% 0;
 }
 
-.right-container p{
+.right-container p {
   padding-right: 42%;
 }
 
-.project-collaborators{
+.project-collaborators {
   margin-top: 8%;
 }
 
-.collab-container{
+.collab-container {
   width: 25%;
 }
 
-.large-head{
-  font-size: 8rem;
+.large-head {
+  font-size: 4rem;
   font-weight: bold;
   /* width: 100%; */
-  padding-left: 15%;
+  padding-left: 20%;
 }
 
-.large-head img{
+.large-head img {
   width: 4%;
 }
 
-.large-head p{
+.large-head p {
   font-size: 1rem;
   font-weight: normal;
-  padding: 0 2%;
+  padding: 0 5%;
   color: black;
   display: inline-block;
 }
 
-
-.card-body{
-  color: black;
-  padding: 5% 3% 3% 3%;
-
-
+.mobile-text{
+  display: none;
 }
 
-.card{
+.Mobile-bottom{
+  display: none;
+}
+
+/* ============================ */
+/* ============================ */
+/* Clients CSS */
+/* ============================ */
+.card-body {
+  color: black;
+  padding: 5% 3% 3% 3%;
+}
+
+.client-tile {
   background-color: #D3D3D3;
   margin-left: 5rem;
 }
 
-.card-text{
+.card-text {
   padding: 10% 0% 30% 0%;
 }
 
-.card-img-top{
+.card-img-top {
   height: 30%
 }
 
-.card-title{
+.card-title {
   font-weight: bolder;
+}
+
+/* ============================ */
+/* Contact Form CSS */
+/* ============================ */
+.form-control {
+  background-color: #E5E5E5;
+  border: none;
+  border-radius: 0;
+  width: 100%;
+  padding: 1.1rem .75rem;
+}
+
+.control-label {
+  margin: 2% 0;
+}
+
+.button-custom {
+  width: 75%;
+  margin-top: 3%;
+  background: black;
+  padding: 2%;
+}
+
+.button-custom:hover {
+  background-color: grey;
+}
+
+.text-center {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left !important;
+}
+
+.contact-alignment {
+  margin-left: 30%;
+}
+
+/* ============================ */
+/* About Us CSS */
+/* ============================ */
+/* ============================ */
+/* Media Query */
+/* ============================ */
+@media (max-width: 1367px) {
+  .nav-item a {
+    font-size: 1rem;
+  }
+
+  .Main-Container{
+    margin-top: 10%;
+  }
+
+  .main-text h1 {
+    font-size: 2rem;
+  }
+
+  .main-text h3 {
+    font-size: 1rem;
+  }
+
+  .project-image img {
+    width: 55% !important;
+  }
+
+  .right-container p {
+    font-size: .8rem;
+  }
+
+  .project-collaborators {
+    margin-top: 6%;
+  }
+
+  .card-body h5 {
+    font-size: .8rem;
+    margin-top: 1px !important;
+  }
+
+  .border-white img {
+    width: 60% !important;
+  }
+
+  .large-head {
+    padding: 6% 4%;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .large-head span {
+    font-size: 5rem;
+  }
+
+  .large-head img {
+    width: 4%;
+  }
+
+  .large-head p {
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0 2%;
+    color: black;
+    display: inline-block;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .project-image img {
+    width: 130% !important;
+    position: static;
+  }
+
+  .Mobile-bottom {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black !important;
+    position: relative;
+    top: 65px;
+  }
+
+  .Mobile-bottom img {
+    width: 15%;
+    margin-left: 16%;
+  }
+
+  .large-head {
+    display: none;
+  }
+
+  .right-container {
+    position: absolute;
+    bottom: 0;
+    display: none;
+  }
+
+  .mobile-text {
+    position: absolute;
+    bottom: 0px;
+    background: white;
+    width: 100%;
+  }
+
+  .mobile-text h1{
+    font-size: 3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  body {
+
+  }
+
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .mobile-text{
+    display: none;
+  }
+
+  .Mobile-bottom{
+    display: none;
+  }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 990px) {
+
+  .mobile-text{
+    display: none;
+  }
+
+  .Mobile-bottom{
+    display: none;
+  }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1199px) and (max-width: 1366px) {
+  body {
+    background-color: #fff !important;
+  }
+
+  /* Hidden Items */
+  .Mobile-bottom {
+    display: none;
+  }
+
+  .mobile-text {
+    display: none;
+  }
+
+  /* End */
 }
